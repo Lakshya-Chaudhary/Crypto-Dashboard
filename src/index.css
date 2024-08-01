@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Body and Background */
+body {
+  background-color: #f5f5f5;
+  line-height: 1.6;
+}
+
+/* Header Styles which has an additional file called header.css*/
+header {
+  background-color: #2b2f36;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+header nav ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Main Content Area */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.crypto-list {
+  margin: 20px 0;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.crypto-list thead {
+  background-color: #f7f8fa;
+}
+
+.crypto-list th, .crypto-list td {
+  padding: 15px;
+  text-align: left;
+}
+
+.crypto-list th {
+  font-weight: bold;
+  color: #333;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.crypto-list tr:hover {
+  background-color: #f1f1f1;
+}
+
+.crypto-list tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.crypto-list td a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.crypto-list td a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #2b2f36;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.crypto-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.crypto-item button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.crypto-item button:hover {
+  background-color: #0056b3;
+}
+
+.crypto-item img {
+  width: 50px;
+  height: 30px; 
+  object-fit: cover; 
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.global-stats {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.global-stats-heading {
+  margin-bottom: 20px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-item {
+  flex: 1;
+  margin: 0 10px; 
+}
+
+.stat-button {
+  width: 100%;
+  padding: 20px;
+  background-color: #28a745; 
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.stat-button:hover {
+  background-color: #218838;
+}
+
+
+.favourites-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.favourites-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.favourite-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.favourite-details {
+  display: flex;
+  align-items: center;
+}
+
+.crypto-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.unfavourite-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.unfavourite-button:hover {
+  background-color: #c82333;
+}

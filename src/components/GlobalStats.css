@@ -1,0 +1,23 @@
+.global-stats-container {
+  display: flex;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+
+.global-stats-button {
+  flex: 1;
+  padding: 20px;
+  background-color: #4caf50; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.global-stats-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
